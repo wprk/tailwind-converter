@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
 import classNames from 'classnames'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 
-import Transition from './Transition'
 import FullLogoImg from '../images/logo-light.png'
-
-import { APP_PATH } from '../config/index'
 
 const Navbar = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
@@ -23,9 +20,11 @@ const Navbar = () => {
             <div className="flex flex-1 hidden md:block">
               <div className="flex items-baseline md:justify-between">
                 <div className="flex items-baseline">
+                  {/*
                   <NavLink to="/how-it-works" className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700" activeClassName="text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">
                     How it works
-                  </NavLink>                
+                  </NavLink>
+                  */}
                 </div>
                 <div className="flex items-baseline">
 
